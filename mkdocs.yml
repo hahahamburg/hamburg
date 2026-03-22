@@ -1,0 +1,135 @@
+site_name: 汉堡的知识库
+site_url: https://hahahamburg.github.io/hamburg
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: pink
+    accent: light blue
+  features:
+    - navigation.tabs
+    - content.code.annotate
+    - content.highlight  # 核心荧光笔功能
+  font:
+    text: Noto Sans SC
+
+extra_css:
+  - stylesheets/extra.css  # 关键！指向我们创建的CSS
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: false
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mkdocs-pdf
+  - ezlinks
+
+nav:
+  - 首页: index.md
+  - 专业基础课程:
+    - 细胞生物学: 
+      - 课程主页: 2025Spring/Cell Biology/index.md
+      - 第0章 绪论: 2025Spring/Cell Biology/Chapter0_绪论.md
+      - 第1章 细胞: 2025Spring/Cell Biology/Chapter1_细胞.md
+      - 第2章 质膜: 2025Spring/Cell Biology/Chapter2_质膜Membrane.md
+      - 第2-2章 质子泵: 2025Spring/Cell Biology/Chapter2-2_质子泵.md
+      - 第3章 物质的跨膜运输与信号传递: 2025Spring/Cell Biology/Chapter3_物质的跨膜运输与信号传递.md
+      - 第4章 细胞基质与内膜系统: 2025Spring/Cell Biology/Chapter4_细胞基质与内膜系统.md
+      - 第5章 细胞的能量转换器: 2025Spring/Cell Biology/Chapter5_细胞的能量转换器.md
+      - 第6章 细胞骨架: 2025Spring/Cell Biology/Chapter6_细胞骨架.md
+      - 第7章 细胞增殖和分裂: 2025Spring/Cell Biology/Chapter7_细胞增殖和分裂.md
+      - 第8章 细胞分化与干细胞: 2025Spring/Cell Biology/Chapter8_细胞分化与干细胞.md
+      - 第9章 细胞衰老与细胞死亡: 2025Spring/Cell Biology/Chapter9_细胞衰老与细胞死亡.md
+    - 微生物学及实验: 
+      - 课程主页: 2025Spring/Microorganism/index.md
+      - 第0章 绪论: 2025Spring/Microorganism/Chapter0_绪论.md
+      - 第1章 细菌: 2025Spring/Microorganism/Chapter1_细菌Bacterium.md
+      - 第2章 真菌: 2025Spring/Microorganism/Chapter2_真菌Fungus.md
+      - 第3章 病毒: 2025Spring/Microorganism/Chapter3_病毒Virus.md
+      - 第4章 微生物营养: 2025Spring/Microorganism/Chapter4_微生物营养.md
+      - 第5章 微生物代谢: 2025Spring/Microorganism/Chapter5_微生物代谢.md
+      - 第6章 微生物的分类: 2025Spring/Microorganism/Chapter6_微生物的分类.md
+      - 第7章 微生物的生长: 2025Spring/Microorganism/Chapter7_微生物的生长.md
+      - 第8章 微生物的遗传: 2025Spring/Microorganism/Chapter8_微生物的遗传.md
+      - 第9章 微生物的生态: 2025Spring/Microorganism/Chapter9_微生物的生态.md
+    - 分子生物学: 
+      - 课程主页: 2025Spring/Molecular Biology/index.md
+      - 第1章 基因组编辑的发现及应用: 2025Spring/Molecular Biology/Chapter1_基因组编辑的发现及应用.md
+      - 第2章 遗传物质研究: 2025Spring/Molecular Biology/Chapter2_遗传物质研究.md
+      - 第3章 DNA的复制: 2025Spring/Molecular Biology/Chapter3_DNA的复制.md
+      - 第4章 原核生物的转录: 2025Spring/Molecular Biology/Chapter4_原核生物的转录Txn.md
+      - 第5章 真核生物的转录: 2025Spring/Molecular Biology/Chapter5_真核生物的转录.md
+      - 第6章 突变和突变修复: 2025Spring/Molecular Biology/Chapter6_突变和突变修复.md
+      - 第7章 真核生物mRNA的修饰: 2025Spring/Molecular Biology/Chapter7_真核生物mRNA的修饰.md
+      - 第8章 翻译(原核+真核): 2025Spring/Molecular Biology/Chapter8_翻译(原核+真核).md
+      - 第9章 真核生物基因表达调控: 2025Spring/Molecular Biology/Chapter9_真核生物基因表达调控.md
+      - 第10章 Recomposition: 2025Spring/Molecular Biology/Chapter10_Recomposition.md
+    - 植物基因组学:
+      - 课程主页: 2025Spring/Plant Genome/index.md
+      - 绪论: 2025Spring/Plant Genome/0 绪论.md
+      - 植物基因组测序与拼接: 2025Spring/Plant Genome/1 植物基因组测序与拼装.md
+      - Composition of plant genomes: 2025Spring/Plant Genome/2 Composition of plant genomes.md
+      - Non-coding RNA: 2025Spring/Plant Genome/3 Non-coding RNA.md
+    - 植物生理学: 
+      - 课程主页: 2025Spring/Plant physiology/index.md
+      - 第1章 植物水分生理: 2025Spring/Plant physiology/Chapter1 Water in Plant.md
+      - 第2章 植物矿质营养: 2025Spring/Plant physiology/Chapter2 Plant Mineral Nutrition.md
+      - 第3章 光合作用: 2025Spring/Plant physiology/Chapter3 Photosynthesis.md
+      - 第4章 呼吸作用: 2025Spring/Plant physiology/Chapter4 Respiration.md
+      - 第5章 同化物的运输和分配: 2025Spring/Plant physiology/Chapter5 同化物的运输和分配.md
+      - 第6章 植物激素: 2025Spring/Plant physiology/Chapter6 Plant hormones.md
+      - 第7章 植物生长生理: 2025Spring/Plant physiology/Chapter7 Plant Growth Physiology.md
+      - 第8章 成花与生殖生理: 2025Spring/Plant physiology/Chapter8 Floral and reproductive physiology in plant.md
+      - 第9章 植物衰老与器官脱落: 2025Spring/Plant physiology/Chapter9 plant Senescence and Organ Abscission.md
+      - 第10章 逆境生理: 2025Spring/Plant physiology/Chapter10 Stress physiology.md
+    - 土壤与植物营养:
+      - 土壤学:
+        - 绪论: 2025Spring/Soil and Plant Nutrition/soil/Chapter1 绪论.md
+        - 土壤矿物质: 2025Spring/Soil and Plant Nutrition/soil/Chapter2 土壤矿物质.md
+        - 土壤有机质: 2025Spring/Soil and Plant Nutrition/soil/Chapter3 土壤有机质.md
+        - 土壤物理性质: 2025Spring/Soil and Plant Nutrition/soil/Chapter4 土壤物理性质.md
+        - 土壤水、气、热状况: 2025Spring/Soil and Plant Nutrition/soil/Chapter5 土壤水、气、热状况.md
+        - 土壤胶体: 2025Spring/Soil and Plant Nutrition/soil/Chapter6 土壤胶体.md
+        - 土壤酸碱性和氧化还原性: 2025Spring/Soil and Plant Nutrition/soil/Chapter7 土壤酸碱性和氧化还原性.md
+      - 植物营养学:
+        - Chapter0 绪论: 2025Spring/Soil and Plant Nutrition/Plant Nutrition/Chapter0 绪论.md
+        - Chapter1 植物养分吸收: 2025Spring/Soil and Plant Nutrition/Plant Nutrition/Chapter1 植物养分吸收.md
+        - Chapter2 氮: 2025Spring/Soil and Plant Nutrition/Plant Nutrition/Chapter2 氮.md
+        - Chapter3 磷: 2025Spring/Soil and Plant Nutrition/Plant Nutrition/Chapter3 磷.md
+        - Chapter4 钾: 2025Spring/Soil and Plant Nutrition/Plant Nutrition/Chapter4 钾.md
+        - Chapter5 钙镁硫和微量元素: 2025Spring/Soil and Plant Nutrition/Plant Nutrition/Chapter5 钙镁硫和微量元素.md
+    - 植物生物技术:
+      - 第0章 绪论: 2026Autumn/Plant Biotechnology/Chapter0 绪论.md
+      - 第1章 植物组织培养成功的关键因素: 2026Autumn/Plant Biotechnology/Chapter1 植物组织培养成功的关键因素.md
+      - 第2章 愈伤组织与植物遗传转化: 2026Autumn/Plant Biotechnology/Chapter2 愈伤组织与植物遗传转化.md
+      - 第3章 单细胞培养与原生质体培养: 2026Autumn/Plant Biotechnology/Chapter3 单细胞培养与原生质体培养.md
+      - 第4章 细胞分化与再分化: 2026Autumn/Plant Biotechnology/Chapter4 细胞分化与再分化.md
+      - 第5章 基因克隆及载体构建: 2026Autumn/Plant Biotechnology/Chapter5 基因克隆及载体构建.md
+      - 第6章 转基因植株分子检测: 2026Autumn/Plant Biotechnology/Chapter6 转基因植株分子检测.md
+      - 第7章 基因编辑: 2026Autumn/Plant Biotechnology/Chapter7 基因编辑.md
+      - 第8章 分子标记技术: 2026Autumn/Plant Biotechnology/Chapter8 分子标记技术.md
+      - 第9章 分子标记辅助育种: 2026Autumn/Plant Biotechnology/Chapter9 分子标记辅助育种.md
+      - 名词解释整理: 2026Autumn/Plant Biotechnology/名词解释整理.md
+    - 随机过程: 2025Spring/Ramdon Calculus/index.md
+  - 种子专业方向课程:
+    - 种子生物学:
+      - 课程主页: 2025Spring/Seed Biology/index.md
+      - 第一章 绪论: 2025Spring/Seed Biology/Chapter1_绪论.md
+      - 第二章 种子的形态构造和分类: 2025Spring/Seed Biology/Chapter2_种子的形态构造和分类.md
+      - 第三章 化学成分: 2025Spring/Seed Biology/Chapter3_化学成分.md
+      - 第四章 种子的形成: 2025Spring/Seed Biology/Chapter4_种子的形成.md
+      - 第五章 种子休眠: 2025Spring/Seed Biology/Chapter5_种子休眠.md
+      - 第六章 种子萌发: 2025Spring/Seed Biology/Chapter6_种子萌发.md
+      - 第七章 种子活力: 2025Spring/Seed Biology/Chapter7_种子活力.md
+      - 第八章 种子寿命: 2025Spring/Seed Biology/Chapter8_种子寿命.md
+  # 其他导航项...
