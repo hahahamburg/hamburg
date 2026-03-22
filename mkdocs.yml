@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 site_name: 汉堡的知识库
 site_url: https://hahahamburg.github.io/hamburg
 theme:
@@ -133,3 +134,6 @@ nav:
       - 第七章 种子活力: 2025Spring/Seed Biology/Chapter7_种子活力.md
       - 第八章 种子寿命: 2025Spring/Seed Biology/Chapter8_种子寿命.md
   # 其他导航项...
+=======
+site_name: My Docs
+>>>>>>> 28407684f120a2d6c9ba82a5653d22b213abcde8

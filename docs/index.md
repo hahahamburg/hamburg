@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Hamburg's Notes
 - About me：你好，我是汉堡！我有超可爱的小狗点点！
     - ZJU大三农民（课内课外都是）
@@ -40,12 +41,22 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Commands
 
 * `mkdocs new \[dir-name]` - Create a new project.
+=======
+# Welcome to MkDocs
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+## Commands
+
+* `mkdocs new [dir-name]` - Create a new project.
+>>>>>>> 28407684f120a2d6c9ba82a5653d22b213abcde8
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
 ## Project layout
 
+<<<<<<< HEAD
 &#x20;   mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
@@ -57,3 +68,9 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * 2025 Autumn
 * 2026 Spring
 
+=======
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+>>>>>>> 28407684f120a2d6c9ba82a5653d22b213abcde8
